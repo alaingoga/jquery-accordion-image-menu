@@ -1,7 +1,7 @@
 {
     "name": "accordionImageMenu",
     "title": "Accordion Image Menu",
-    "description": "This plugin allows to create an accordion menu using the images as background. It’s allows multiple animations effects like: swing, circ, back, bounce, etc using the jQuery UI Effects.",
+    "description": "This plugin allows to create an accordion menu using the images as background. It allows multiple animations effects like: swing, circ, back, bounce, etc using the jQuery UI Effects.",
     "keywords": [
         "accordion",
         "animation",
