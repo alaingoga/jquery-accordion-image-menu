@@ -22,6 +22,7 @@
     "licenses": [
         {
             "type": "MIT",
+			"url": "https://github.com/webargument/jquery-accordion-image-menu/MIT-LICENSE.txt"
         }
     ],
     "homepage": "https://github.com/webargument/jquery-accordion-image-menu",
