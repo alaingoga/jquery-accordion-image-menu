@@ -1,0 +1,33 @@
+{
+    "name": "accordionImageMenu",
+    "title": "Accordion Image Menu",
+    "description": "This plugin allows to create an accordion menu using the images as background. It’s allows multiple animations effects like: swing, circ, back, bounce, etc using the jQuery UI Effects.",
+    "keywords": [
+        "accordion",
+        "animation",
+		"menu",
+		"image"
+    ],
+    "version": "0.4",
+    "author": {
+        "name": "Alain Gonzalez",
+        "url": "http://web-argument.com"
+    },
+    "maintainers": [
+        {
+        "name": "Alain Gonzalez",
+        "url": "http://web-argument.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+        }
+    ],
+    "homepage": "https://github.com/webargument/jquery-accordion-image-menu",
+    "docs": "https://github.com/webargument/jquery-accordion-image-menu",
+    "download": "https://github.com/webargument/jquery-accordion-image-menu",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
