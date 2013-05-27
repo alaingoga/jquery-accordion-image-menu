@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+     
+<head>
+    <title>Jquery - Accordion Image Menu</title>
+	<script type="text/javascript" src="jquery-1.10.0.min.js" ></script>
+    <script type="text/javascript" src="jquery-ui-1.10.3.custom.min.js"></script>
+	<script type="text/javascript" src="jquery.accordionImageMenu.min.js"></script>
+	
+    <link href="accordionImageMenu.css" rel="stylesheet" type="text/css" />
+     
+    <script type="text/javascript">
+	$(document).ready(function() {
+	
+		jQuery('#acc-menu2').AccordionImageMenu({
+		  'border' : 1,
+		  'openItem':0,
+		  'duration': 400,
+		  'openDim': 310,
+		  'closeDim': 160,
+		  'effect': 'easeOutQuint',
+		  'fadeInTitle': false,
+		  'height':100 
+		});	
+		
+	});
+    </script>
+    
+    
+  
+    
+</head>  
+<body>
+
+<h1 align="center">Jquery - Accordion Image Menu </h1>
+
+<div id="acc-menu2" style="margin:10px auto">
+<a href="http://web-argument.com/jquery-accordion-image-menu-plugin"><span>This street</span><img src="http://web-argument.com/wp-content/uploads/2011/03/accordion_menu_street1.jpg" alt="" title="This street" width="300" height="200" class="alignnone size-medium wp-image-806" /></a>
+<a href="http://web-argument.com/jquery-accordion-image-menu-plugin"><span>Nature</span><img src="http://web-argument.com/wp-content/uploads/2011/03/accordion_menu_nature1.jpg" alt="" title="Bamboo" width="300" height="283" class="alignnone size-medium wp-image-803" /></a>
+<a href="http://web-argument.com/jquery-accordion-image-menu-plugin"><span>Landscape</span><img src="http://web-argument.com/wp-content/uploads/2011/03/accordion_menu_landscape1.jpg" alt="" title="gift of light" width="241" height="300" class="alignnone size-medium wp-image-801" /></a>
+<a href="http://web-argument.com/jquery-accordion-image-menu-plugin"><span>Aerial</span><img src="http://web-argument.com/wp-content/uploads/2011/03/accordion_menu_air1.jpg" alt="" title="Aerial" width="300" height="200" class="alignnone size-medium wp-image-800" /></a>
+</div>
+
+<p align="center">
+More examples and documentation at: <a href="http://web-argument.com/2011/03/07/jquery-accordion-image-menu-plugin/">http://web-argument.com/jquery-accordion-image-menu-plugin</a>
+</p>
+
+</body>
+</html>
